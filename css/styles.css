@@ -10929,11 +10929,24 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/FrontEnd-FinalProjectHTML2/assets/img/bg-masthead.jpg");
+  background:  url("/FrontEnd-FinalProjectHTML2/assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  animation: dynamicBackground 30s infinite;
+}
+
+@keyframes dynamicBackground {
+  0% {
+    background-image:  url("/FrontEnd-FinalProjectHTML2/assets/img/bg-masthead.jpg");
+  }
+  33.33% {
+    background-image: url("/FrontEnd-FinalProjectHTML2/assets/img/bg-masthead.jpg");
+  }
+  66.67% {
+    background-image: url("/FrontEnd-FinalProjectHTML2/assets/img/bg-masthead.jpg");
+  }
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
