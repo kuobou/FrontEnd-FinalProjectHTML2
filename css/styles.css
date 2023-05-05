@@ -10889,42 +10889,27 @@ hr.divider-light {
 }
 @media (min-width: 992px) {
   #mainNav {
-    box-shadow: none;
-    background-color: transparent;
+    background-color: #fff; /* 设置导航栏背景颜色为白色 */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* 添加阴影效果 */
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: #212529; /* 设置导航栏品牌文字颜色为深色 */
   }
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #f4623a; /* 设置导航栏品牌文字悬停颜色为橙色 */
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: #212529; /* 设置导航栏链接文字颜色为深色 */
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #f4623a; /* 设置导航栏链接文字悬停颜色为橙色 */
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
   }
-  #mainNav.navbar-shrink {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
-  }
-  #mainNav.navbar-shrink .navbar-brand {
-    color: #212529;
-  }
-  #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f4623a;
-  }
-  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-    color: #212529;
-  }
-  #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
-  }
 }
+
 
 header.masthead {
   padding-top: 10rem;
