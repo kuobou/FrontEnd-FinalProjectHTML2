@@ -10914,7 +10914,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background:  url("/FrontEnd-FinalProjectHTML2/assets/img/bg-masthead.jpg");
+  background:  url("/FrontEnd-FinalProjectHTML2/assets/img/index1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10924,13 +10924,13 @@ header.masthead {
 
 @keyframes dynamicBackground {
   0% {
-    background-image:  url("/FrontEnd-FinalProjectHTML2/assets/img/bg-masthead.jpg");
+    background-image:  url("/FrontEnd-FinalProjectHTML2/assets/img/index1.jpg");
   }
   33.33% {
-    background-image: url("/FrontEnd-FinalProjectHTML2/assets/img/bg-masthead.jpg");
+    background-image: url("/FrontEnd-FinalProjectHTML2/assets/img/index2.jpg");
   }
   66.67% {
-    background-image: url("/FrontEnd-FinalProjectHTML2/assets/img/bg-masthead.jpg");
+    background-image: url("/FrontEnd-FinalProjectHTML2/assets/img/index3.jpg");
   }
 }
 header.masthead h1, header.masthead .h1 {
