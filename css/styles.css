@@ -10882,10 +10882,10 @@ hr.divider-light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #ba2c33;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #ba2c33 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10899,11 +10899,11 @@ hr.divider-light {
     color: #f4623a; /* 设置导航栏品牌文字悬停颜色为橙色 */
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: #212529; /* 设置导航栏链接文字颜色为深色 */
+    color: #202d62; /* 设置导航栏链接文字颜色为深色 */
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a; /* 设置导航栏链接文字悬停颜色为橙色 */
+    color: #ba2c33; /* 设置导航栏链接文字悬停颜色为橙色 */
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
