@@ -11317,27 +11317,31 @@ hr.divider-light {
 }
 
 header.masthead {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
-    background: url("/FrontEnd-FinalProjectHTML2/assets/img/index1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    animation: dynamicBackground 30s infinite;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-image: url("/FrontEnd-FinalProjectHTML2/assets/img/index1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  animation: dynamicBackground 30s infinite;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes dynamicBackground {
-  0%, 100% {
+  0%, 20% {
       background-image: url("/FrontEnd-FinalProjectHTML2/assets/img/index1.jpg");
   }
-  33.33% {
+  40%, 60% {
       background-image: url("/FrontEnd-FinalProjectHTML2/assets/img/index2.jpg");
   }
-  66.67% {
+  80%, 100% {
       background-image: url("/FrontEnd-FinalProjectHTML2/assets/img/index3.jpg");
   }
 }
+
+
+
 
 header.masthead h1,
 header.masthead .h1 {
