@@ -59,9 +59,9 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 var images = [
-    "/assets/img/index1.jpg",
-    "/assets/img/index2.jpg",
-    "/assets/img/index3.jpg"
+    "./assets/img/index1.jpg",
+    "./assets/img/index2.jpg",
+    "./assets/img/index3.jpg"
   ];
   var currentIndex = 0;
   var masthead = document.querySelector('header.masthead');
