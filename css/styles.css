@@ -8551,6 +8551,9 @@ fieldset:disabled .btn {
 .bg-blu {
     background-color: #bdc4e1;
 }
+.bg-darkBlu{
+    background-color: #202d62;
+}
 
 .bg-black {
     --bs-bg-opacity: 1;
